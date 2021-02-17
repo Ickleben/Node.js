@@ -1,8 +1,8 @@
-const fs = require('fs');
-const dirName2000 = __dirname + '/dir/2000'
-const dirName1800 = __dirname + '/dir/1800'
+//const fs = require('fs');
+//const dirName2000 = __dirname + '/dir/2000'
+//const dirName1800 = __dirname + '/dir/1800'
 // const Test = __dirname + '/dir/1800/Alina.txt'
-const randomFile = __dirname + '/randomFile'
+//const randomFile = __dirname + '/randomFile'
 // fs.readdir(dirName2000, (err, files) => {
 //     if (err) {
 //         console.log(err);
