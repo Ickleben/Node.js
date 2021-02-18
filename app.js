@@ -1,8 +1,10 @@
-const fs = require('fs');
-const dirName2000 = __dirname + '/dir/2000'
-const dirName1800 = __dirname + '/dir/1800'
-// const Test = __dirname + '/dir/1800/Alina.txt'
-const randomFile = __dirname + '/randomFile'
+// const fs = require('fs');
+// const path = require("path");
+// const dirName2000 = path.join(__dirname, 'dir', '2000')
+// const dirName1800 = path.join(__dirname, 'dir', '1800')
+// const Test = path.join(__dirname, 'dir', '1800', 'Alina.txt')
+//
+// const randomFile = path.join(__dirname + '/randomFile')
 // fs.readdir(dirName2000, (err, files) => {
 //     if (err) {
 //         console.log(err);
@@ -11,7 +13,7 @@ const randomFile = __dirname + '/randomFile'
 //     console.log(files)
 //     files.map(fileName => {
 //         console.log(fileName)
-//         fs.rename(`${__dirname}/dir/2000/${fileName}`, `${__dirname}/dir/1800/${fileName}` ,err => {
+//         fs.rename(path.join(__dirname,'dir','2000',fileName), path.join(__dirname,'dir','1800',fileName) ,err => {
 //     if (err) {
 //         console.log(err);
 //     }
@@ -34,13 +36,13 @@ const randomFile = __dirname + '/randomFile'
 //     }
 //     console.log(files)
 //     files.map(fileName => {
-//         fs.readFile(`${dirName1800}/${fileName}` , (err, data) => {
+//         fs.readFile(path.join(dirName1800,fileName) , (err, data) => {
 //             if (JSON.parse(data).gender == 'male') {
 //                 console.log(JSON.parse(data).gender);
 //                 console.log('ok')
 //
 //
-//         fs.rename(`${__dirname}/dir/1800/${fileName}`, `${__dirname}/dir/2000/${fileName}`, err => {
+//         fs.rename(path.join(__dirname,'dir','1800',fileName), path.join(__dirname,'dir','2000',fileName), err => {
 //             if (err) {
 //                 console.log(err);
 //             }
@@ -59,21 +61,23 @@ const randomFile = __dirname + '/randomFile'
 //         }
 //
 //         files.forEach(fileName => {
-//             fs.stat(link + `/${fileName}`, (err1, stats) => {
-//                 if (stats.isDirectory() == false) {
-//                     console.log(false)
-//                     fs.rename(`${link}/${fileName}`, `${__dirname}/sortFile/${fileName}`,
-//                             err => {
+//             const pathWithFile = path.join(link, fileName)
+//             fs.stat(pathWithFile, (err1, stats) => {
+//                 if (stats.isDirectory()) {
+//                     console.log(true)
+//                     return sort(pathWithFile)
+//
+//
+//                 }
+//                 console.log(false)
+//                 const pathSortFile = path.join(__dirname, 'sortFile', fileName)
+//                 fs.rename(pathWithFile, pathSortFile,
+//                     err => {
 //                         if (err) {
 //                             console.log(err);
 //                         }
 //                     })
-//                 } else if (stats.isDirectory() == true) {
-//                     console.log(true)
-//                     console.log('asddasd')
-//                     sort(link += `/${fileName}`)
-//                     console.log(link)
-//                 }
+//
 //             })
 //         })
 //     });
