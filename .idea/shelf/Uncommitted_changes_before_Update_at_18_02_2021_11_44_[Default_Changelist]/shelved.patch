@@ -1,0 +1,35 @@
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1613601924883)
++++ b/.idea/vcs.xml	(date 1613601924883)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/sortFile/bra.txt b/sortFile/bra.txt
+new file mode 100644
+diff --git a/sortFile/asd.txt b/sortFile/asd.txt
+new file mode 100644
+diff --git a/sortFile/dasdas.txt b/sortFile/dasdas.txt
+new file mode 100644
+diff --git a/sortFile/dsad.txt b/sortFile/dsad.txt
+new file mode 100644
+diff --git a/sortFile/sadsad.txt b/sortFile/sadsad.txt
+new file mode 100644
+diff --git a/sortFile/asddas.txt b/sortFile/asddas.txt
+new file mode 100644
+diff --git a/sortFile/sdadasdasda.txt b/sortFile/sdadasdasda.txt
+new file mode 100644
+diff --git a/sortFile/asda.txt b/sortFile/asda.txt
+new file mode 100644
+diff --git a/sortFile/sdadsa.txt b/sortFile/sdadsa.txt
+new file mode 100644
