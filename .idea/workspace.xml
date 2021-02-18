@@ -2,6 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6d1e18c3-e035-41c4-995c-efdae8c1be83" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pr/manOlder20/andrii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/manOlder20/oleg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/manOlder20/stepan" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/manOlder20/yurii" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/manYounger20/max" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/womanOlder20/olya" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/womanYounger20/alina" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/womanYounger20/karina" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/womanYounger20/maria" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pr/womanYounger20/solomiya" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
     </list>
@@ -36,6 +46,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\Node\lesson1\pr\data" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +60,8 @@
       <option name="presentableId" value="Default" />
       <updated>1613593297497</updated>
       <workItem from="1613593298603" duration="8986000" />
-      <workItem from="1613639173850" duration="3101000" />
+      <workItem from="1613639173850" duration="4165000" />
+      <workItem from="1613664424726" duration="2891000" />
     </task>
     <task id="LOCAL-00001" summary="lesson 1 v2">
       <created>1613641372206</created>
@@ -61,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613641514956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="lesson 1 v2.1">
+      <created>1613642356858</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613642356858</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,6 +92,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lesson 1 v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 v2" />
+    <MESSAGE value="lesson 1 v2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="lesson 1 v2.1" />
   </component>
 </project>
